@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <style>
+        /* Basic Reset & Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-weight: normal;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color:white;
+            background-image:url("sky.jpg");
+            font-weight: normal;
+        }
+
+        header {
+            background-color:;
+            color:white;
+            padding: 20px 0;
+            text-align: center;
+            font-family: cursive;
+            font-weight: normal;
+            
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+            text-align: left;  
+            font-weight: normal;
+        }
+
+        nav {
+            margin-top: 10px;
+            text-align: right;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: cursive;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: white;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+            font-family: cursive;
+            text-align: center;
+            font-weight: normal;
+        }
+
+        /* Showcase of Your Work */
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            font-weight: normal;
+        }
+
+        .project-card {
+            background:beige;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+            color: black;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .project-card h3 {
+            margin-bottom: 10px;
+            font-weight: normal;
+        }
+
+        /* Personal Information */
+        .personal-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .personal-info img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        /* Skills */
+        .skills-list {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .skills-list li {
+            background-color: black;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 20px;
+            font-weight: normal;
+
+        }
+
+        /* Experience & Achievements */
+        .experience, .achievements {
+            margin-top: 20px;
+            color: black;
+            box-sizing: content-box;
+        }
+
+        .item {
+            background: beige;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        /* Footer */
+        footer {
+            color:white;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 40px;
+        }
+        div{
+            font-family: cursive;
+        }
+        
+    </style>
+</head>
+<body>
+
+<header>
+    
+    <h1>Hello I'm Cumi♥</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#achievements">Achievements</a>
+    </nav>
+</header>
+
+<!-- Personal Information Section -->
+<section id="About Me">
+    <h2>web developer</h2>
+    <div class="personal-info">
+        <img src="cums.png" alt="Your Photo" />
+        <p>Hello! My real name is Ciarie Jane Boral but you can  call me Cumi♥, i was a passionate developer with more improvement in web development. Welcome to my portfolio!</p>
+        <img src="tali.jpg"
+        <p>My Personal Information:  
+            I was graduate at STI Collage Batangas and have the course of Bachelor of Science Information Technology, 23 years old lived in Sto. Cristo San Jose Batangas. I  was currently work as a web developer at Lexsys Technology Incorporated for almost a year. I was really happy to become a web developer and work properly.
+            I'am Born Again and a Servant of God. 
+        </p>
+    </div>
+</section>
+
+<!-- Showcase of Your Work -->
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+        <!-- Example Project -->
+        <div class="project-card">
+            <h3>Web  design </h3>
+            <p>This Web Design was made by my own creativeness and with help of others helping me to provide a good and responsive website.</p>
+            <a href="https://www.wix.com/website/design" target="_blank">View</a>
+        </div>
+        <div class="project-card">
+            <h3>Mobile Games</h3>
+            <p>This is another projects.</p>
+            <a href="https://pokemongo.com/" target="_blank">View</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </div>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+        <li>Designer</li>
+        <li>Programmer</li>
+        <li>UI developer</li>
+        <li>web developer   </li>
+        <!-- Add more skills -->
+    </ul>
+</section>
+
+<!-- Experience --> 
+<section id="experience">
+    <h2>Experience</h2>
+    <div class="experience">
+        <div class="item">
+            <p>• Encoder<em></em></p>
+            <p>• UI Designer
+              <p>• back-end developer
+                <p>• Problem-solver</p>
+            </div>
+        <!-- Add more experiences -->
+    </div>
+</section>
+
+<!-- Achievements -->
+<section id="achievements">
+    <h2>Achievements</h2>
+    <div class="achievements">
+        <div class="item">
+            <p>When I was in my Collage i was first place in doubles woman Badminton.</p>
+            <p>Best developer in Asian Award.</p>
+            <p>One of the most valuable and collaborators of IT industry.</p>
+        </div>
+        <!-- Add more achievements -->
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy;facebook Talitha-cumi Ciarie Jane Boral
+        IG Talitha-cumi Ciarie Jane Boral
+    </p>
+    <p>Contact:
+        09636822470.email ciariejane124@gmail.com</p>
+</footer>
+
+<!-- Optional JavaScript for interactivity -->
+<script>
+    // Example: Smooth scrolling for navigation
+    document.querySelectorAll('nav a').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetID = this.getAttribute('href').slice(1);
+            const targetSection = document.getElementById(targetID);
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+        });
+    });
+</script>
+
+</body>
+</html>
